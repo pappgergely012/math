@@ -116,6 +116,18 @@ const initialState = [
       },
     ]
   },
+  {
+    categoryName: 'Henger',
+    subcategories: [
+      {
+        name: 'Térfogat / Köbméter',
+        measure: 'm3',
+        id: '51',
+        dimensions: ['diameter', 'height'],
+        description: `A hengert két párhuzamos alap, tető és palást képzi. A palást merőleges az alapra, amit kör alkot.\n[π * r² * m]` 
+      },
+    ]
+  },
 ]
 
 

@@ -81,6 +81,11 @@ export const calculate = (subcatId, height, width, length, diameter, A, B, C) =>
 
         response = A + B + C;
       break;
+    case '51':
+        if(!height || !diameter) return response = null
+
+        response = Math.PI * (r * r) * height;
+      break;
   }
 
   return response;
